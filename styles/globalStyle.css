@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pinyon Script', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue,Lobster, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;;
+}
+.Wrapper {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #0A0119;
+}
+.container {
+    width: 100%;
+    max-width: 864px;
+    padding: 0.3rem 0.5rem;
+    overflow: hidden;
+    min-height: 100vh;
+}
